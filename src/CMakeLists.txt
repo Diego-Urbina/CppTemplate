@@ -3,4 +3,7 @@ add_executable(
     main.cpp
 )
 
-target_link_libraries(Project ${CONAN_LIBS})
+target_link_libraries(
+    Project
+    ${CONAN_LIBS}
+)
