@@ -1,9 +1,9 @@
 add_executable(
-    Project 
+    CppTemplate 
     main.cpp
 )
 
 target_link_libraries(
-    Project
+    CppTemplate
     ${CONAN_LIBS}
 )

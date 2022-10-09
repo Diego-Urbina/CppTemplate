@@ -1,12 +1,12 @@
 add_executable(
-    ProjectTest
+    CppTemplateTest
     main_test.cpp
 )
 
 target_link_libraries(
-    ProjectTest
+    CppTemplateTest
     ${CONAN_LIBS}
 )
 
 include(GoogleTest)
-gtest_discover_tests(ProjectTest)
+gtest_discover_tests(CppTemplateTest)
